@@ -6,7 +6,7 @@ namespace Tookan.NET.Clients
     /// <summary>
     /// Base class for an API client.
     /// </summary>
-    public abstract class ApiClient
+    internal abstract class ApiClient
     {
         /// <summary>
         /// Initializes a new API client.

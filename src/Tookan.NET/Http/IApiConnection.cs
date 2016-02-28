@@ -39,15 +39,6 @@ namespace Tookan.NET.Http
         Task<T> Get<T>(Uri uri, IDictionary<string, string> parameters, string accepts);
 
         /// <summary>
-        /// Gets the HTML content of the API resource at the specified URI.
-        /// </summary>
-        /// <param name="uri">URI of the API resource to get</param>
-        /// <param name="parameters">Parameters to add to the API request</param>
-        /// <returns>The API resource's HTML content.</returns>
-        /// <exception cref="ApiException">Thrown when an API error occurs.</exception>
-        Task<string> GetHtml(Uri uri, IDictionary<string, string> parameters);
-
-        /// <summary>
         /// Gets all API resources in the list at the specified URI.
         /// </summary>
         /// <typeparam name="T">Type of the API resource in the list.</typeparam>
