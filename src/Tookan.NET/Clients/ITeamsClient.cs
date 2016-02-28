@@ -5,6 +5,6 @@ namespace Tookan.NET.Clients
 {
     public interface ITeamsClient
     {
-        Task<Team> GetTeamAsync(string accessToken);
+        Task<Team> GetTeamAsync();
     }
 }
