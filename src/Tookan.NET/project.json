@@ -6,6 +6,10 @@
   "projectUrl": "https://github.com/kenshinthebattosai/Tookan.NET",
   "licenseUrl": "https://github.com/kenshinthebattosai/Tookan.NET/blob/master/LICENSE",
 
+  "dependencies": {
+    "Newtonsoft.Json": "8.0.2"
+  },
+
   "frameworks": {
     "net45": { },
     "dotnet5.4": {

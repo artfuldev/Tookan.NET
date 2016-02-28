@@ -11,6 +11,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B2A43C9D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{664C1AF2-68B5-405A-AF45-40A1E4121F51}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Tookan.NET.Tests", "tests\Tookan.NET.Tests\Tookan.NET.Tests.xproj", "{341DEFE9-CB28-45F0-A8A6-50ADAC42C0E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{30FCF38C-B570-4256-8813-B1B18E095CB6}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,12 +28,17 @@ Global
 		{14668146-C2B4-479B-AE6B-31CBA27C84E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14668146-C2B4-479B-AE6B-31CBA27C84E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14668146-C2B4-479B-AE6B-31CBA27C84E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{341DEFE9-CB28-45F0-A8A6-50ADAC42C0E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{341DEFE9-CB28-45F0-A8A6-50ADAC42C0E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{341DEFE9-CB28-45F0-A8A6-50ADAC42C0E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{341DEFE9-CB28-45F0-A8A6-50ADAC42C0E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{14668146-C2B4-479B-AE6B-31CBA27C84E9} = {38706856-9F52-47A2-8CD2-A5BD410923A3}
+		{341DEFE9-CB28-45F0-A8A6-50ADAC42C0E1} = {B2A43C9D-E8D1-4614-B027-B911F703C7AB}
 	EndGlobalSection
 	GlobalSection(CodealikeProperties) = postSolution
 		SolutionGuid = fcc468de-5c0c-4a99-9e7b-00508b49060a
