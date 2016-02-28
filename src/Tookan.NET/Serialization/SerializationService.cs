@@ -5,7 +5,7 @@ namespace Tookan.NET.Serialization
 {
     public class SerializationService : ISerializationService
     {
-        private readonly IContractResolver _resolver = new SnakeCaseJsonContractResolver();
+        private readonly IContractResolver _resolver = new RubyCaseResolver();
         private JsonSerializerSettings Settings => new JsonSerializerSettings {ContractResolver = _resolver};
         public string Serialize(object value) => JsonConvert.SerializeObject(value, Settings);
         public string Serialize<T>(T value) => JsonConvert.SerializeObject(value, Settings);

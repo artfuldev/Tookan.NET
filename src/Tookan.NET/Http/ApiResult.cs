@@ -1,9 +1,9 @@
-﻿namespace Tookan.NET.Responses
+﻿namespace Tookan.NET.Http
 {
     public class ApiResult<T> : IApiResult<T>
     {
         public string Message { get; set; }
-        public int Status { get; set; }
+        public Status Status { get; set; }
         public T Data { get; set; }
     }
 

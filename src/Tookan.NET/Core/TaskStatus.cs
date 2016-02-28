@@ -1,4 +1,4 @@
-﻿namespace Tookan.NET.Tasks
+﻿namespace Tookan.NET.Core
 {
     /// <summary>
     ///     The possible values of the Task Status as an enumeration.
