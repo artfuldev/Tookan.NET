@@ -46,35 +46,6 @@ namespace Tookan.NET.Helpers
         }
 
         /// <summary>
-        /// Gets the HTML content of the API resource at the specified URI.
-        /// </summary>
-        /// <param name="connection">The connection to use</param>
-        /// <param name="uri">URI of the API resource to get</param>
-        /// <returns>The API resource's HTML content.</returns>
-        /// <exception cref="ApiException">Thrown when an API error occurs.</exception>
-        public static Task<string> GetHtml(this IApiConnection connection, Uri uri)
-        {
-            Ensure.ArgumentIsNotNull(connection, "connection");
-            Ensure.ArgumentIsNotNull(uri, "uri");
-
-            return connection.GetHtml(uri, null);
-        }
-
-        /// <summary>
-        /// Performs an asynchronous HTTP GET request that expects a <seealso cref="IResponse"/> containing HTML.
-        /// </summary>
-        /// <param name="connection">The connection to use</param>
-        /// <param name="uri">URI endpoint to send request to</param>
-        /// <returns><seealso cref="IResponse"/> representing the received HTTP response</returns>
-        public static Task<IApiResponse<string>> GetHtml(this IConnection connection, Uri uri)
-        {
-            Ensure.ArgumentIsNotNull(connection, "connection");
-            Ensure.ArgumentIsNotNull(uri, "uri");
-            
-            return connection.GetHtml(uri, null);
-        }
-
-        /// <summary>
         /// Gets the API resource at the specified URI.
         /// </summary>
         /// <typeparam name="T">Type of the API resource to get.</typeparam>
