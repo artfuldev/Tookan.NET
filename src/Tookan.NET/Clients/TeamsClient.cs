@@ -6,7 +6,7 @@ using Tookan.NET.Http;
 
 namespace Tookan.NET.Clients
 {
-    public class TeamsClient : ApiClient, ITeamsClient
+    internal class TeamsClient : ApiClient, ITeamsClient
     {
         public async Task<IEnumerable<Team>> GetTeamsAsync()
         {

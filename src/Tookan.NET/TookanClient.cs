@@ -16,8 +16,10 @@ namespace Tookan.NET
         {
             var apiConnection = new ApiConnection(connection);
             Agents = new AgentsClient(apiConnection);
+            Teams = new TeamsClient(apiConnection);
         }
 
         public IAgentsClient Agents { get; }
+        public ITeamsClient Teams { get; }
     }
 }

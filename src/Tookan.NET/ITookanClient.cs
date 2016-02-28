@@ -4,6 +4,7 @@ namespace Tookan.NET
 {
     public interface ITookanClient
     {
-        IAgentsClient Agents { get; } 
+        IAgentsClient Agents { get; }
+        ITeamsClient Teams { get; }
     }
 }
