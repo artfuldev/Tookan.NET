@@ -1,4 +1,4 @@
-﻿namespace Tookan.NET.Errors
+﻿namespace Tookan.NET.Http
 {
     /// <summary>
     ///     The status as returned by the Tookan API.

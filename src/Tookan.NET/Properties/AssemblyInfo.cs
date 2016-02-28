@@ -21,3 +21,6 @@ using System.Runtime.InteropServices;
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 [assembly: Guid("14668146-c2b4-479b-ae6b-31cba27c84e9")]
+
+// Show to Unit Tests Project
+[assembly:InternalsVisibleTo("Tookan.NET.Tests")]
