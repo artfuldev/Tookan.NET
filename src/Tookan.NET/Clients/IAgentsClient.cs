@@ -6,6 +6,6 @@ namespace Tookan.NET.Clients
 {
     public interface IAgentsClient
     {
-        Task<IEnumerable<IAgent>> GetAllAsync(string lattitude, string longitude);
+        Task<IEnumerable<IAgent>> GetAllAsync(string lattitude = null, string longitude = null);
     }
 }

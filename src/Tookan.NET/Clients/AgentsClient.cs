@@ -12,7 +12,7 @@ namespace Tookan.NET.Clients
         {
         }
 
-        public async Task<IEnumerable<IAgent>> GetAllAsync(string lattitude, string longitude)
+        public async Task<IEnumerable<IAgent>> GetAllAsync(string lattitude = null, string longitude = null)
         {
             var uri = new Uri("/view_all_fleets_location", UriKind.Relative);
             var request = new
